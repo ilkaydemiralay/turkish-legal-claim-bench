@@ -19,18 +19,19 @@ The most dangerous error is saying **"supported"** to a false claim, because tha
 | Claude Haiku 5.5 | 92% | 0 | batch |
 | TypeSafe Jev 1.13 | 90% (EN: 92%) | 0 | 340 ms |
 | Gemma 4 12B, Q4_K_M, local (Ollama, thinking off) | 90% | 0 | 3 s |
-| Gemma 4 12B, thinking on | 88% (all 44 answered correct; 6 never finished thinking) | 0 | 27 s |
+| Gemma 4 12B, thinking on | 88% (all 44 answers correct; 6 never finished thinking) | 0 | 27 s |
 | Cloudflare Clef 27B | 82% (EN: 88%) | 6 | 370 ms |
 | Cloudflare Clef-Flash 9B | 74% (EN: 76%) | 5 (EN: 7) | 520 ms |
 
 Notes:
-- Clef's false "supported" answers mostly came with low confidence. A rule of "ask a human when confidence < 0.5" cuts them from 6 to 1.
+- Clef's false "supported" answers mostly came with low confidence (0.10-0.32; only T057-09 was above 0.5, at 0.61). A rule of "ask a human when confidence < 0.5" cuts them from 6 to 1. Confidences are in `runs/clef.jsonl`.
+- OpenAI Decisions cost: 45,566 input tokens for 50 claims at $0.10 per 1M input tokens (output is free) = about $0.005.
 - Most errors sit on the line between "contradicts" and "silent": models confuse a law forbidding something with a law not mentioning it.
 - Passages and claims are Turkish. "EN" rows use English instructions over the same Turkish text.
 
 ## The ÖTV story
 
-4760 ÖTV Law art. 7(2) ends its last sub-paragraph with "on yılda bir defaya mahsus olmak üzere ilk iktisabı" ("first acquisition, once every ten years"). The AI agent that audits my site read it as belonging only to that last sub-paragraph (scrapped-vehicle replacement) and "corrected" a true sentence on the site. The second annotator read it as the shared closing of all sub-paragraphs. The Revenue Administration's 2025 guide settles it: the exemption is usable once every ten years. The site was re-corrected. Among the tested models, Jev and Clef read it correctly; Claude and Gemma did not.
+4760 ÖTV Law art. 7(2) ends its last sub-paragraph with "on yılda bir defaya mahsus olmak üzere ilk iktisabı" ("first acquisition, once every ten years"). The AI agent that audits my site read it as belonging only to that last sub-paragraph (scrapped-vehicle replacement) and "corrected" a true sentence on the site. The second annotator read it as the shared closing of all sub-paragraphs. The Revenue Administration's 2025 guide settles it: the exemption is usable once every ten years. The article has since been fixed. Among the tested models, Jev, Clef and OpenAI Decisions (Turkish instructions; low confidence, and English instructions flipped it) read it correctly; Claude and Gemma did not.
 
 A verbatim-quote gate proves the quote is in the law. It does not prove the reading is right.
 
