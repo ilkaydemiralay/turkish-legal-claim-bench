@@ -1,0 +1,50 @@
+{"pred": "celisiyor", "usage": {"input_tokens": 576, "output_tokens": 637}, "id": "T057-01", "label": "celisiyor", "ms": 35473}
+{"pred": "destekliyor", "usage": {"input_tokens": 576, "output_tokens": 569}, "id": "T057-02", "label": "destekliyor", "ms": 24479}
+{"pred": "destekliyor", "usage": {"input_tokens": 567, "output_tokens": 730}, "id": "T057-03", "label": "destekliyor", "ms": 31926}
+{"pred": null, "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)", "id": "T057-04", "label": "sessiz", "ms": 84481}
+{"pred": "celisiyor", "usage": {"input_tokens": 558, "output_tokens": 446}, "id": "T057-05", "label": "celisiyor", "ms": 20043}
+{"pred": null, "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)", "id": "T057-06", "label": "celisiyor", "ms": 83462}
+{"pred": "celisiyor", "usage": {"input_tokens": 535, "output_tokens": 314}, "id": "T057-07", "label": "celisiyor", "ms": 15001}
+{"pred": "celisiyor", "usage": {"input_tokens": 532, "output_tokens": 621}, "id": "T057-08", "label": "celisiyor", "ms": 26986}
+{"pred": "sessiz", "usage": {"input_tokens": 536, "output_tokens": 1419}, "id": "T057-09", "label": "sessiz", "ms": 58723}
+{"pred": "sessiz", "usage": {"input_tokens": 526, "output_tokens": 439}, "id": "T057-10", "label": "sessiz", "ms": 19854}
+{"pred": "celisiyor", "usage": {"input_tokens": 740, "output_tokens": 573}, "id": "T060-01", "label": "celisiyor", "ms": 26389}
+{"pred": "destekliyor", "usage": {"input_tokens": 726, "output_tokens": 901}, "id": "T060-02", "label": "destekliyor", "ms": 38669}
+{"pred": "destekliyor", "usage": {"input_tokens": 727, "output_tokens": 533}, "id": "T060-03", "label": "destekliyor", "ms": 23742}
+{"pred": "celisiyor", "usage": {"input_tokens": 718, "output_tokens": 529}, "id": "T060-04", "label": "celisiyor", "ms": 23533}
+{"pred": "destekliyor", "usage": {"input_tokens": 719, "output_tokens": 411}, "id": "T060-05", "label": "destekliyor", "ms": 18956}
+{"pred": "sessiz", "usage": {"input_tokens": 713, "output_tokens": 445}, "id": "T060-06", "label": "sessiz", "ms": 20768}
+{"pred": "sessiz", "usage": {"input_tokens": 527, "output_tokens": 1579}, "id": "T060-07", "label": "sessiz", "ms": 65443}
+{"pred": "destekliyor", "usage": {"input_tokens": 531, "output_tokens": 747}, "id": "T060-08", "label": "destekliyor", "ms": 32252}
+{"pred": "celisiyor", "usage": {"input_tokens": 514, "output_tokens": 568}, "id": "T060-09", "label": "celisiyor", "ms": 25751}
+{"pred": "sessiz", "usage": {"input_tokens": 599, "output_tokens": 753}, "id": "T054-01", "label": "sessiz", "ms": 33850}
+{"pred": "destekliyor", "usage": {"input_tokens": 601, "output_tokens": 933}, "id": "T054-02", "label": "destekliyor", "ms": 40935}
+{"pred": "celisiyor", "usage": {"input_tokens": 597, "output_tokens": 657}, "id": "T054-03", "label": "celisiyor", "ms": 29092}
+{"pred": "celisiyor", "usage": {"input_tokens": 596, "output_tokens": 516}, "id": "T054-04", "label": "celisiyor", "ms": 22948}
+{"pred": "destekliyor", "usage": {"input_tokens": 602, "output_tokens": 533}, "id": "T054-05", "label": "destekliyor", "ms": 24597}
+{"pred": "sessiz", "usage": {"input_tokens": 589, "output_tokens": 540}, "id": "T054-06", "label": "sessiz", "ms": 24801}
+{"pred": "destekliyor", "usage": {"input_tokens": 596, "output_tokens": 507}, "id": "T054-07", "label": "destekliyor", "ms": 23774}
+{"pred": null, "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)", "id": "T064-01", "label": "celisiyor", "ms": 85063}
+{"pred": "destekliyor", "usage": {"input_tokens": 706, "output_tokens": 640}, "id": "T064-02", "label": "destekliyor", "ms": 28774}
+{"pred": null, "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)", "id": "T064-03", "label": "celisiyor", "ms": 85050}
+{"pred": "destekliyor", "usage": {"input_tokens": 686, "output_tokens": 804}, "id": "T064-04", "label": "destekliyor", "ms": 35342}
+{"pred": "celisiyor", "usage": {"input_tokens": 688, "output_tokens": 780}, "id": "T064-05", "label": "celisiyor", "ms": 34518}
+{"pred": "celisiyor", "usage": {"input_tokens": 676, "output_tokens": 738}, "id": "T064-06", "label": "celisiyor", "ms": 32896}
+{"pred": "sessiz", "usage": {"input_tokens": 676, "output_tokens": 1300}, "id": "T064-07", "label": "sessiz", "ms": 55222}
+{"pred": "celisiyor", "usage": {"input_tokens": 687, "output_tokens": 854}, "id": "T064-08", "label": "celisiyor", "ms": 37583}
+{"pred": "celisiyor", "usage": {"input_tokens": 603, "output_tokens": 503}, "id": "T061-01", "label": "celisiyor", "ms": 23662}
+{"pred": "destekliyor", "usage": {"input_tokens": 606, "output_tokens": 463}, "id": "T061-02", "label": "destekliyor", "ms": 21943}
+{"pred": "destekliyor", "usage": {"input_tokens": 612, "output_tokens": 892}, "id": "T061-03", "label": "destekliyor", "ms": 39102}
+{"pred": "celisiyor", "usage": {"input_tokens": 599, "output_tokens": 550}, "id": "T061-04", "label": "celisiyor", "ms": 24953}
+{"pred": "sessiz", "usage": {"input_tokens": 599, "output_tokens": 585}, "id": "T061-05", "label": "sessiz", "ms": 26762}
+{"pred": "sessiz", "usage": {"input_tokens": 696, "output_tokens": 529}, "id": "T065-01", "label": "sessiz", "ms": 25946}
+{"pred": "destekliyor", "usage": {"input_tokens": 697, "output_tokens": 430}, "id": "T065-02", "label": "destekliyor", "ms": 21373}
+{"pred": "destekliyor", "usage": {"input_tokens": 693, "output_tokens": 556}, "id": "T065-03", "label": "destekliyor", "ms": 26571}
+{"pred": "celisiyor", "usage": {"input_tokens": 700, "output_tokens": 446}, "id": "T065-04", "label": "celisiyor", "ms": 21788}
+{"pred": "celisiyor", "usage": {"input_tokens": 714, "output_tokens": 507}, "id": "T065-05", "label": "celisiyor", "ms": 24652}
+{"pred": "celisiyor", "usage": {"input_tokens": 692, "output_tokens": 424}, "id": "T065-06", "label": "celisiyor", "ms": 21886}
+{"pred": "sessiz", "usage": {"input_tokens": 687, "output_tokens": 429}, "id": "T065-07", "label": "sessiz", "ms": 19215}
+{"pred": null, "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)", "id": "T059-01", "label": "celisiyor", "ms": 87457}
+{"pred": null, "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)", "id": "T059-02", "label": "destekliyor", "ms": 85189}
+{"pred": "destekliyor", "usage": {"input_tokens": 911, "output_tokens": 686}, "id": "T059-03", "label": "destekliyor", "ms": 31448}
+{"pred": "celisiyor", "usage": {"input_tokens": 901, "output_tokens": 429}, "id": "T059-04", "label": "celisiyor", "ms": 20759}
